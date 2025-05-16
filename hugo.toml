@@ -1,0 +1,23 @@
+baseURL = 'https://www.rainsay.net/'
+languageCode = 'zh-CN'
+title = 'Rainsay Note Blog'
+
+theme = 'LoveIt'
+
+[params]
+  title = 'Rainsay Blog'
+  description = 'Write my learn'
+  [params.author]
+    name = 'Joey'
+    email = 'joey@rainsay.top'
+  [params.header] 
+    [params.header.title]
+      name = 'Rainsay Note Blog'
+  [params.section] 
+    paginate = 10
+    rss = 10
+  [params.home]
+    [params.home.profile]
+      gravatarEmail = 'joeygong95@qq.com'
+      title = 'Learn every thing'
+      subtitle = '学无止境，做个爱学习的好孩子'
