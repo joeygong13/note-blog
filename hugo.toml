@@ -4,6 +4,29 @@ title = 'Rainsay Note Blog'
 
 theme = 'LoveIt'
 
+[menus]
+  [[menus.main]]
+    identifier = 'posts'
+    name = 'Posts'
+    pageRef = '/posts/'
+    weight = 10
+  [[menus.main]]
+    identifier = 'jotting'
+    name = 'Jotting'
+    pageRef = '/jotting/'
+    weight = 11
+  [[menus.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 20
+  [[menus.main]]
+    identifier = 'categories'
+    name = 'Categories'
+    pageRef = '/categories'
+    weight = 30
+
+
 [params]
   title = 'Rainsay Blog'
   description = 'Write my learn'
@@ -13,11 +36,19 @@ theme = 'LoveIt'
   [params.header] 
     [params.header.title]
       name = 'Rainsay Note Blog'
-  [params.section] 
-    paginate = 10
-    rss = 10
   [params.home]
     [params.home.profile]
-      gravatarEmail = 'joeygong95@qq.com'
-      title = 'Learn every thing'
-      subtitle = '学无止境，做个爱学习的好孩子'
+      avatarUrl = '/img/avatar.jpg'
+      title = '学无止境'
+      subtitle = 'ge pi, shui jiao'
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+  [params.page]
+    [params.page.code]
+      copy = true
